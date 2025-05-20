@@ -61,4 +61,21 @@ console.log(tinderuser.hasOwnProperty("name"));
 
 
 //console.log(user[1].name,age,location);
+ 
+const course = {
+    coursename : "javascript",
+    price : 199,
+    teacher : "shivam",
+}
 
+const {teacher : instructor} = course 
+
+console.log(instructor);
+
+//json
+
+{
+    // "name" : "shivamsharma",
+    // "age" : "22",
+    // "location" : "bhilai"
+}
