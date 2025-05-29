@@ -1,6 +1,6 @@
 const button = document.querySelectorAll('.box');
 const body = document.querySelector('body');
-const reset = document.querySelector('#reset');
+const eset = document.querySelector('.reset');
 
 button.forEach(function(btn){
     btn.addEventListener('click', function(color){
@@ -24,6 +24,12 @@ button.forEach(function(btn){
         
     })
 
+})
+
+eset.addEventListener('click', function(item){
+    if (item.target.id === 'reset1') {
+        body.style.backgroundColor = 'white'
+    }
 })
 
 
